@@ -7,7 +7,7 @@ export default function Greeter() {
   return (
     <div className={`${ibmPlexMono.className} text-white mt-75 lg:ml-50`}>
       <h2 className="text-3xl sm:text-4xl md:text-5xl mb-3 text-center lg:text-start">
-        Hey, I'm <span className="bg-blue-600">Jonathan</span>. :)
+        {`Hey, I'm`} <span className="bg-blue-600">Jonathan</span>. {`:)`}
       </h2>
       <div className="text-center lg:text-start">
         <TypeAnimation
