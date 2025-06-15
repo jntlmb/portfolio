@@ -1,4 +1,4 @@
-Repository for my Portfoliol.
+Repository for my Personal Portfolio.
 
 More descriptive readme coming soon.
 
