@@ -6,7 +6,7 @@ export default function Nav() {
     <nav
       className={`${ibmPlexMono.className} flex justify-between text-xl text-white`}
     >
-      <h1 className={`${eduQLD.className} bg-blue-600`}>vjl</h1>
+      <h1 className={`${eduQLD.className} bg-green-600`}>vjl</h1>
       <div className="flex gap-6">
         <NavLinks />
       </div>

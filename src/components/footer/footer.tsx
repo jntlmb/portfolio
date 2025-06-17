@@ -1,13 +1,20 @@
 import { ibmPlexMono } from '../fonts';
+import Image from 'next/image';
+import nextIcon from '../../../public/next.svg';
 
 export default function Footer() {
   return (
-    <div className="">
-      <footer
-        className={`${ibmPlexMono.className} text-white bg-blue-600 inline-block`}
-      >
-        Made in Next.js
-      </footer>
-    </div>
+    <footer className={`${ibmPlexMono.className} text-white flex gap-3`}>
+      <p className="inline-block bg-amber-600">Made with</p>
+      <a target="_blank" href="https://nextjs.org" rel="noopener noreferrer">
+        <Image
+          priority
+          src={nextIcon}
+          alt="next.js icon"
+          height={13}
+          className="inline-block ml-1 mb-[3px] invert"
+        />
+      </a>
+    </footer>
   );
 }

@@ -20,7 +20,7 @@ export default function NavLinks() {
             key={link.name}
             href={link.href}
             className={clsx({
-              'bg-blue-600': link.href === pathname,
+              'bg-purple-600': link.href === pathname,
             })}
           >
             <p>{link.name}</p>
