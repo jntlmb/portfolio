@@ -12,12 +12,12 @@ export default function Greeter() {
       <div className="text-center md:text-start">
         <TypeAnimation
           sequence={[
-            "I'm a Web Developer.",
+            'I do Web Development.',
             2000,
             "I'm always learning.",
             2000,
             "I'm based in Germany.",
-            2000,
+            5000,
           ]}
           wrapper="span"
           speed={70}
