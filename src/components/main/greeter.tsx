@@ -6,7 +6,7 @@ import { TypeAnimation } from 'react-type-animation';
 export default function Greeter() {
   return (
     <div className={`${ibmPlexMono.className} text-white mt-75 lg:ml-50`}>
-      <h2 className="text-3xl sm:text-4xl md:text-5xl mb-3 text-center lg:text-start">
+      <h2 className="text-2xl sm:text-4xl md:text-5xl mb-3 text-center lg:text-start text-nowrap">
         {`Hey, I'm`} <span className="bg-blue-600">Jonathan</span>. {`:)`}
       </h2>
       <div className="text-center lg:text-start">
@@ -23,7 +23,7 @@ export default function Greeter() {
           speed={70}
           style={{ display: 'inline-block' }}
           repeat={Infinity}
-          className="text-2xl"
+          className="text-xl"
         />
       </div>
     </div>
