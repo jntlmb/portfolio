@@ -23,7 +23,7 @@ export default function Greeter() {
           speed={70}
           style={{ display: 'inline-block' }}
           repeat={Infinity}
-          className="text-xl"
+          className="text-xl md:text-2xl"
         />
       </div>
     </div>
