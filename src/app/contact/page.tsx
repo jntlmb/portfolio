@@ -1,4 +1,4 @@
-import { ibmPlexMono } from '@/components/fonts';
+import Contact from '@/components/contact/contact';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -6,12 +6,10 @@ export const metadata: Metadata = {
   description: '...',
 };
 
-export default function Page() {
+export default function Home() {
   return (
-    <div className={`${ibmPlexMono.className} text-white mt-75 lg:ml-50`}>
-      <h2 className="text-3xl sm:text-4xl md:text-5xl mb-3 text-center lg:text-start bg-red-600 inline-block">
-        Contact
-      </h2>
+    <div className="">
+      <Contact />
     </div>
   );
 }

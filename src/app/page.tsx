@@ -2,7 +2,7 @@ import Greeter from '@/components/main/greeter';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'vjl - Hi',
+  title: 'vjl - Hey',
   description: '...',
 };
 

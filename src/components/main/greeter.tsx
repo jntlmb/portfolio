@@ -6,10 +6,10 @@ import { TypeAnimation } from 'react-type-animation';
 export default function Greeter() {
   return (
     <div className={`${ibmPlexMono.className} text-white mt-75 lg:ml-50`}>
-      <h2 className="text-2xl sm:text-4xl md:text-5xl mb-3 text-center lg:text-start text-nowrap">
-        {`Hey, I'm`} <span className="bg-blue-600">Jonathan</span>. {`:)`}
+      <h2 className="text-2xl sm:text-4xl md:text-5xl mb-3 text-center md:text-start text-nowrap">
+        {`Hey, I'm`} <span className="bg-blue-600">Jonathan</span> {`:)`}
       </h2>
-      <div className="text-center lg:text-start">
+      <div className="text-center md:text-start">
         <TypeAnimation
           sequence={[
             "I'm a Web Developer.",
